@@ -6,11 +6,9 @@ self.addEventListener('install', event => {
     const cache = await caches.open(CACHE_NAME);
     cache.addAll([
       '/',
-      './converter.js',
-      './converter.css',
-      './index.html',
-      // '/PWA/icon512.png'
-
+      '/converter.js',
+      '/converter.css',
+      
     ]);
   })());
 });
