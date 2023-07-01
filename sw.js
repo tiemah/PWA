@@ -8,6 +8,7 @@ self.addEventListener('install', event => {
       './',
       './converter.js',
       './converter.css',
+      './icon512.png'
       
     ]);
   })());
